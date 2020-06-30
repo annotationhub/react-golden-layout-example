@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@annotationhub/react-golden-layout@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.0.2.tgz#fa7077fc37e8a7e8f094a39bb7200efad4cc54f2"
-  integrity sha512-IpasJztCGbpyw0Z63mb/YGLS+OF4uFBRrheqzHO+zWw/OdDOfR+tw1bxfD7LL5LkC5LAvRmRc2kLX2aG0M7Yog==
+"@annotationhub/react-golden-layout@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.0.3.tgz#2583dbe0240e953b243387e22658347890fc86e4"
+  integrity sha512-WglSLU/S6F8R/rt8k9BVoxlGjBiyLaYjegb4pN/f2CKvCNFmJjzvD0pg0A+vn2S0aDvA4DvJq+nG8xqhlUpLNQ==
   dependencies:
     jquery "^3.5.0"
     zepto "^1.2.0"
