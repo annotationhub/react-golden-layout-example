@@ -11,43 +11,32 @@ function ComponentB() {
   return <h2>B</h2>;
 }
 
-function ComponentC() {
-  return <h2>C</h2>;
+function ComponentC(props: any) {
+  return <h2>{props.content}</h2>;
 }
 
 export default function GoldenTest() {
   return (
     <div>
       <GoldenLayoutComponent
-        htmlAttrs={{ style: { height: "100vh", width: "100vw" } }}
+        htmlAttrs={{ style: { width: '100vw', height: '100vh' }}}
         config={{
           content: [{
             type: 'row',
             content:[{
-              type:'react-component',
-              component: 'ComponentA',
-              title: 'A Component',
-              props: { label: 'A' }
+              component: ComponentA,
+              title: 'A Component'
             }, {
               type: 'column',
               content:[{
-                  type:'react-component',
-                  component: 'ComponentB',
-                  title: 'B Component',
-                  props: { label: 'B' }
+                  component: ComponentB,
+                  title: 'B Component'
               },{
-                  type:'react-component',
-                  component: 'ComponentC',
-                  title: 'C Component',
-                  props: { label: 'C' }
+                  component: () => <ComponentC content="Component with Props" />,
+                  title: 'C Component'
               }]
             }]
           }]
-        }}
-        registerComponents={glLayout => {
-          glLayout.registerComponent('ComponentA', ComponentA);
-          glLayout.registerComponent('ComponentB', ComponentB)
-          glLayout.registerComponent('ComponentC', ComponentC)
         }}
       />
     </div>

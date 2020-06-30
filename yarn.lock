@@ -3,9 +3,9 @@
 
 
 "@annotationhub/react-golden-layout@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.0.3.tgz#2583dbe0240e953b243387e22658347890fc86e4"
-  integrity sha512-WglSLU/S6F8R/rt8k9BVoxlGjBiyLaYjegb4pN/f2CKvCNFmJjzvD0pg0A+vn2S0aDvA4DvJq+nG8xqhlUpLNQ==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.1.0.tgz#d66011b67dc765f8c0bae5f2e6d57f0f014f7d78"
+  integrity sha512-gV9HCKCYuGZMHj5nO9lGv0d5V8MXdwzUrSwVjO2wnEtRJSiNhToLMEG2OineaObSM6mYbAiACn/CLfRXmXILZw==
   dependencies:
     jquery "^3.5.0"
     zepto "^1.2.0"
