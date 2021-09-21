@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@annotationhub/react-golden-layout@^2.0.3":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.1.0.tgz#d66011b67dc765f8c0bae5f2e6d57f0f014f7d78"
-  integrity sha512-gV9HCKCYuGZMHj5nO9lGv0d5V8MXdwzUrSwVjO2wnEtRJSiNhToLMEG2OineaObSM6mYbAiACn/CLfRXmXILZw==
+"@annotationhub/react-golden-layout@^2.1.0":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.3.2.tgz#c6b182d0cc7104c03b89fd3b047609140a56f441"
+  integrity sha512-1tT7fwZ5ToCrdutJvjrK7poMH8sdXsr5fbhEVKIYQmMS7HK77SnUOmApConeS2a03qDdecRWTIXkWbuQULpKSQ==
   dependencies:
     jquery "^3.5.0"
     zepto "^1.2.0"
@@ -10017,9 +10017,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
