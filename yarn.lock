@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@annotationhub/react-golden-layout@^2.0.3":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.1.0.tgz#d66011b67dc765f8c0bae5f2e6d57f0f014f7d78"
-  integrity sha512-gV9HCKCYuGZMHj5nO9lGv0d5V8MXdwzUrSwVjO2wnEtRJSiNhToLMEG2OineaObSM6mYbAiACn/CLfRXmXILZw==
+"@annotationhub/react-golden-layout@^2.1.0":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@annotationhub/react-golden-layout/-/react-golden-layout-2.3.2.tgz#c6b182d0cc7104c03b89fd3b047609140a56f441"
+  integrity sha512-1tT7fwZ5ToCrdutJvjrK7poMH8sdXsr5fbhEVKIYQmMS7HK77SnUOmApConeS2a03qDdecRWTIXkWbuQULpKSQ==
   dependencies:
     jquery "^3.5.0"
     zepto "^1.2.0"
@@ -8506,9 +8506,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
